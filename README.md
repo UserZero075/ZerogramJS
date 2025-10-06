@@ -577,9 +577,8 @@ MIT
 
 - Issues: [GitHub Issues]
 - Telegram: [https://t.me/Bots0075]
-- Docs: [Wiki]
+- Docs: [https://github.com/UserZero075/ZerogramJS/blob/main/README.md]
 
 ---
 
 **Made with ❤️ for the Telegram Bot community**
-```
