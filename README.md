@@ -576,43 +576,10 @@ MIT
 ## 📞 Soporte
 
 - Issues: [GitHub Issues]
-- Telegram: [@tu_canal]
+- Telegram: [https://t.me/Bots0075]
 - Docs: [Wiki]
 
 ---
 
 **Made with ❤️ for the Telegram Bot community**
 ```
-
----
-
-## 🎯 **Resumen de Mejoras**
-
-### ✅ **Modularización**
-- Código separado en módulos lógicos
-- Responsabilidades claramente definidas
-- Fácil de mantener y extender
-
-### ✅ **Mejoras de Funcionalidad**
-- Mejor manejo de errores
-- Validaciones robustas
-- Logging con debug
-- Sistema de eventos mejorado
-- Soporte para cancelación de descargas mejorado
-
-### ✅ **API sin Cambios**
-```javascript
-// ¡Sigue funcionando exactamente igual!
-const Zerogram = require('./zerogram');
-const bot = new Zerogram(apiId, apiHash, token);
-await bot.init();
-bot.command('start', handler);
-```
-
-### ✅ **Documentación Completa**
-- Guía de inicio rápido
-- Referencia completa de API
-- Ejemplos prácticos
-- Casos de uso comunes
-
-¡Tu librería ahora es profesional, mantenible y bien documentada! 🚀
