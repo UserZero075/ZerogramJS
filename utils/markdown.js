@@ -1,3 +1,8 @@
+function parseMarkdown(text) {
+    // Placeholder — usa HTML directamente en telegram
+    return { cleanedText: text, entities: [] };
+}
+
 /**
  * Convierte markdown a HTML
  */
