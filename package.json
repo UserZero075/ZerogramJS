@@ -1,6 +1,6 @@
 {
   "name": "zerogramjs",
-  "version": "2.26.22",
+  "version": "2.1.2",
   "description": "Framework moderno y elegante para crear bots de Telegram con Node.js.",
   "main": "index.js",
   "files": [
@@ -33,7 +33,7 @@
   },
   "homepage": "https://github.com/UserZero075/ZerogramJS#readme",
   "dependencies": {
-    "telegram": "^2.26.22",
-    "debug": "^4.4.3"
+    "telegram": "2.26.22",
+    "debug": "4.4.3"
   }
 }
