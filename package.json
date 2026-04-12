@@ -1,16 +1,26 @@
 {
   "name": "zerogramjs",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "Framework moderno y elegante para crear bots de Telegram con Node.js.",
   "main": "index.js",
-  "files": ["lib/", "shared/", "utils/", "index.js"],
+  "files": [
+    "lib/",
+    "shared/",
+    "utils/",
+    "index.js"
+  ],
   "exports": {
     ".": "./index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["telegram", "bot", "telegram-bot-api", "nodejs"],
+  "keywords": [
+    "telegram",
+    "bot",
+    "telegram-bot-api",
+    "nodejs"
+  ],
   "author": "UserZero075",
   "license": "MIT",
   "type": "commonjs",
