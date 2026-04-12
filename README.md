@@ -1,6 +1,8 @@
 
 # 🚀 ZerogramJS 2.1
 
+![Banner](banner.jpg)
+
 Framework moderno y elegante para crear bots de Telegram con Node.js.
 
 ## ✨ Características
