@@ -578,8 +578,8 @@ MIT
 ## 📞 Soporte
 
 - Issues: [GitHub Issues]
-- Telegram: [https://t.me/Bots0075]
-- Docs: [https://github.com/UserZero075/ZerogramJS/blob/main/README.md]
+- Telegram: [https://t.me/Projects0075]
+- Docs: [https://userzero075.github.io/zerogramjs-web/docs/]
 
 ---
 
