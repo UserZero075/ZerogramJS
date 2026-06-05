@@ -33,6 +33,7 @@
   },
   "homepage": "https://github.com/UserZero075/ZerogramJS#readme",
   "dependencies": {
+    "big-integer": "^1.6.52",
     "telegram": "2.26.22",
     "debug": "4.4.3"
   }
