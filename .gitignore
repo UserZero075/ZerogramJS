@@ -1,0 +1,7 @@
+node_modules/
+sessions/
+*.session
+*.session.tmp*
+*.log
+.DS_Store
+coverage/

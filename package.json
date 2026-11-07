@@ -1,25 +1,41 @@
 {
   "name": "zerogramjs",
-  "version": "2.2.0",
-  "description": "Framework moderno y elegante para crear bots de Telegram con Node.js.",
-  "main": "index.js",
+  "version": "2.3.0",
+  "description": "Framework moderno y elegante para crear bots de Telegram con Node.js y TypeScript.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "files": [
+    "dist/",
     "lib/",
     "shared/",
     "utils/",
-    "index.js"
+    "index.js",
+    "index.d.ts",
+    "banner.jpg",
+    "README.md"
   ],
   "exports": {
-    ".": "./index.js"
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.js"
+    },
+    "./package.json": "./package.json"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "test": "node --import tsx --test test/*.test.ts",
+    "test:stress": "node --import tsx --test test/stress.test.ts",
+    "prepublishOnly": "npm run build && npm test"
   },
   "keywords": [
     "telegram",
     "bot",
     "telegram-bot-api",
-    "nodejs"
+    "mtproto",
+    "gramjs",
+    "nodejs",
+    "typescript"
   ],
   "author": "UserZero075",
   "license": "MIT",
@@ -34,7 +50,13 @@
   "homepage": "https://github.com/UserZero075/ZerogramJS#readme",
   "dependencies": {
     "big-integer": "^1.6.52",
-    "telegram": "2.26.22",
-    "debug": "4.4.3"
+    "debug": "4.4.3",
+    "telegram": "2.26.22"
+  },
+  "devDependencies": {
+    "@types/debug": "^4.1.13",
+    "@types/node": "^26.6.6",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
   }
 }
